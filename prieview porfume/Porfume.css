@@ -8,6 +8,7 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
+    font-family: montserrat;
 }
 
 .container {
@@ -22,26 +23,23 @@ body {
 }
 
 .text {
-    display: block;
-    margin: 40px 40px 40px 40px;
-    justify-content: space-between;
-
+    margin: 40px;
 }
 
 .image img {
     display: block;
     width: 325px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .head {
-    font-family: montserrat;
     letter-spacing: 5px;
     font-size: 14px;
     color: gray;
     margin-bottom: 20px;
 }
 
-.heading {
+.h1 {
     font-family: fraunces;
     font-weight: 700;
     margin-bottom: 25px;
@@ -49,7 +47,6 @@ body {
 
 .paragraph {
     font-size: 14px;
-    font-family: montserrat;
     color: gray;
     margin-bottom: 25px;
 }
@@ -58,19 +55,13 @@ body {
     background-color: hsl(158, 36%, 37%);
     border: 0;
     color: white;
-    align-items: center;
-    justify-content: center;
     border-radius: 7px;
     display: flex;
-    padding: 15px 71px;
+    padding: 15px 76px;
     font-size: 14px;
-    font-family: montserrat;
 }
 
 .button img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-right: 5px;
 }
  
@@ -89,9 +80,8 @@ body {
 .strike {
     display: flex;
     color: gray;
-    font-family: montserrat;
     font-size: 14px;
-    justify-content: center;
     align-items: center;
     margin-left: 20px;
+    font-family: montserrat;
 }
